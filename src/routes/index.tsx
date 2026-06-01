@@ -167,8 +167,8 @@ function Index() {
           </div>
 
           <ProjectCard index="01" title="Circle Progression" category="Kinetic / Loop" year="2026" videoSrc={circleAsset.url} />
-          <ProjectCard index="02" title="Untitled Sequence" category="Brand Film" year="2026" videoSrc={project1Asset.url} />
-          <ProjectCard index="03" title="Night Frequency" category="Music Visual" year="2026" videoSrc={project2Asset.url} />
+          <ProjectCard index="02" title="Apple Animation" category="Brand Film" year="2026" videoSrc={project1Asset.url} />
+          <ProjectCard index="03" title="Apple Style Animation for Gmail" category="Motion Concept" year="2026" videoSrc={project2Asset.url} />
           <div className="border-t border-[rgba(151,125,255,0.2)]" />
         </div>
       </section>
