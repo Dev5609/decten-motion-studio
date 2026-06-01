@@ -205,8 +205,24 @@ function Index() {
             </span>
           </a>
 
-          <div className="mt-16 text-xs font-mono uppercase tracking-widest text-[var(--muted-foreground)]">
-            More channels coming soon
+          <div className="mt-16 flex flex-wrap items-center justify-center gap-6 md:gap-10 text-xs font-mono uppercase tracking-widest">
+            <a
+              href="https://www.linkedin.com/in/kush-bhargava-1672b6367"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[var(--muted-foreground)] hover:text-[var(--lilac)] transition-colors"
+            >
+              LinkedIn ↗
+            </a>
+            <span className="text-[var(--border)]">/</span>
+            <a
+              href="https://instagram.com/dectenmotion"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[var(--muted-foreground)] hover:text-[var(--lilac)] transition-colors"
+            >
+              Instagram @dectenmotion ↗
+            </a>
           </div>
         </div>
       </section>
