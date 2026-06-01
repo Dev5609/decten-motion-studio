@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Decten Motion - Motion Graphics Editor" },
+      { name: "description", content: "Decten Motion Portfolio showcases motion graphics work with a visually engaging gradient design." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Decten Motion - Motion Graphics Editor" },
+      { property: "og:description", content: "Decten Motion Portfolio showcases motion graphics work with a visually engaging gradient design." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Decten Motion - Motion Graphics Editor" },
+      { name: "twitter:description", content: "Decten Motion Portfolio showcases motion graphics work with a visually engaging gradient design." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7e2a1d56-2aee-49e3-a1f7-ab404e84a110/id-preview-f0ac3732--6aa6eecf-a97a-4c50-a135-b0d284c20f66.lovable.app-1780324253642.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7e2a1d56-2aee-49e3-a1f7-ab404e84a110/id-preview-f0ac3732--6aa6eecf-a97a-4c50-a135-b0d284c20f66.lovable.app-1780324253642.png" },
     ],
     links: [
       {
