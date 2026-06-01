@@ -10,7 +10,7 @@ export function Nav() {
         <a href="#contact" className="hover:text-[var(--lilac)] transition-colors">Contact</a>
       </div>
       <a
-        href="mailto:workskush@gmail.com"
+        href="#contact"
         className="text-xs font-mono uppercase tracking-widest border border-[var(--lilac)] px-4 py-2 rounded-full hover:bg-[var(--lilac)] hover:text-[var(--ink)] transition-colors"
       >
         Let's talk
