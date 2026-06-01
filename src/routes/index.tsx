@@ -87,8 +87,8 @@ function Index() {
               </p>
             </div>
             <div className="text-xs font-mono uppercase tracking-widest text-[var(--muted-foreground)] space-y-2">
-              <div className="flex justify-between border-b border-[var(--border)] pb-2"><span>Based</span><span className="text-[var(--cream)]">Earth</span></div>
-              <div className="flex justify-between border-b border-[var(--border)] pb-2"><span>Years</span><span className="text-[var(--cream)]">4+</span></div>
+              <div className="flex justify-between border-b border-[var(--border)] pb-2"><span>Based</span><span className="text-[var(--cream)]">India</span></div>
+              <div className="flex justify-between border-b border-[var(--border)] pb-2"><span>Experience</span><span className="text-[var(--cream)]">4+ yrs</span></div>
               <div className="flex justify-between"><span>Status</span><span className="text-[var(--lilac)]">● Open</span></div>
             </div>
           </motion.div>
