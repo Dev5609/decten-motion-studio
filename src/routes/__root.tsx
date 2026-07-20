@@ -79,7 +79,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Decten Motion - Motion Graphics Editor" },
       { name: "description", content: "Decten Motion Portfolio showcases motion graphics work with a visually engaging gradient design." },
-      { name: "author", content: "Lovable" },
+      { name: "author", content: "Kush Bhargava" },
       { property: "og:title", content: "Decten Motion - Motion Graphics Editor" },
       { property: "og:description", content: "Decten Motion Portfolio showcases motion graphics work with a visually engaging gradient design." },
       { property: "og:type", content: "website" },

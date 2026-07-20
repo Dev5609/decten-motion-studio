@@ -8,12 +8,15 @@ import circleAsset from "@/assets/circle.mp4.asset.json";
 import project1Asset from "@/assets/project1.mp4.asset.json";
 import project2Asset from "@/assets/project2.mp4.asset.json";
 
+const ASSET_ORIGIN = "https://project--6aa6eecf-a97a-4c50-a135-b0d284c20f66.lovable.app";
+const assetUrl = (path: string) => `${ASSET_ORIGIN}${path}`;
+
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Decten Motion — Kush Bharghava, Motion Graphics Editor" },
-      { name: "description", content: "Portfolio of Kush Bharghava (Decten Motion) — motion graphics editor crafting kinetic typography, brand films and sound-led visual stories." },
-      { property: "og:title", content: "Decten Motion — Kush Bharghava" },
+      { title: "Decten Motion — Kush Bhargava, Motion Graphics Editor" },
+      { name: "description", content: "Portfolio of Kush Bhargava (Decten Motion) — motion graphics editor crafting kinetic typography, brand films and sound-led visual stories." },
+      { property: "og:title", content: "Decten Motion — Kush Bhargava" },
       { property: "og:description", content: "Motion graphics editor portfolio." },
     ],
   }),
@@ -83,7 +86,7 @@ function Index() {
           >
             <div className="md:col-span-2">
               <p className="text-lg md:text-2xl font-light leading-relaxed text-[var(--cream)]/90">
-                I'm <span className="text-[var(--lilac)]">Kush Bharghava</span> — a motion graphics editor crafting kinetic typography, brand films and sound-led visual stories that move people.
+                I'm <span className="text-[var(--lilac)]">Kush Bhargava</span> — a motion graphics editor crafting kinetic typography, brand films and sound-led visual stories that move people.
               </p>
             </div>
             <div className="text-xs font-mono uppercase tracking-widest text-[var(--muted-foreground)] space-y-2">
@@ -121,7 +124,7 @@ function Index() {
 
           <div className="relative rounded-lg overflow-hidden border border-[var(--border)] aspect-video shadow-[0_30px_80px_-20px_rgba(0,51,255,0.5)]">
             <video
-              src={dectenAsset.url}
+              src={assetUrl(dectenAsset.url)}
               controls
               autoPlay
               muted
@@ -166,9 +169,9 @@ function Index() {
             <div className="col-span-2 text-right">Action</div>
           </div>
 
-          <ProjectCard index="01" title="Circle Progression" category="Kinetic / Loop" year="2026" videoSrc={circleAsset.url} />
-          <ProjectCard index="02" title="Apple Animation" category="Brand Film" year="2026" videoSrc={project1Asset.url} />
-          <ProjectCard index="03" title="Apple Style Animation for Gmail" category="Motion Concept" year="2026" videoSrc={project2Asset.url} />
+          <ProjectCard index="01" title="Circle Progression" category="Kinetic / Loop" year="2026" videoSrc={assetUrl(circleAsset.url)} />
+          <ProjectCard index="02" title="Apple Animation" category="Brand Film" year="2026" videoSrc={assetUrl(project1Asset.url)} />
+          <ProjectCard index="03" title="Apple Style Animation for Gmail" category="Motion Concept" year="2026" videoSrc={assetUrl(project2Asset.url)} />
           <div className="border-t border-[rgba(151,125,255,0.2)]" />
         </div>
       </section>
@@ -229,7 +232,7 @@ function Index() {
 
       {/* FOOTER */}
       <footer className="border-t border-[var(--border)] px-6 md:px-12 py-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs font-mono uppercase tracking-widest text-[var(--muted-foreground)]">
-        <span>© 2026 Kush Bharghava</span>
+        <span>© 2026 Kush Bhargava</span>
         <span>Decten Motion — Vol.1</span>
         <span>All pixels in motion</span>
       </footer>
