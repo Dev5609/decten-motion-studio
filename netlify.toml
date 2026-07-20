@@ -4,3 +4,9 @@
 
 [build.environment]
   NITRO_PRESET = "netlify"
+
+[[redirects]]
+  from = "/__l5e/*"
+  to = "https://project--6aa6eecf-a97a-4c50-a135-b0d284c20f66.lovable.app/__l5e/:splat"
+  status = 200
+  force = true

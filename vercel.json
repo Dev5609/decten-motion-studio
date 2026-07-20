@@ -1,4 +1,10 @@
 {
   "buildCommand": "NITRO_PRESET=vercel bun run build",
-  "framework": null
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/__l5e/:path*",
+      "destination": "https://project--6aa6eecf-a97a-4c50-a135-b0d284c20f66.lovable.app/__l5e/:path*"
+    }
+  ]
 }
